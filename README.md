@@ -147,6 +147,14 @@ Altere a linha **import App from './App';** para:
 import App from "./src";
 ```
 
+## Instalando PropTypes
+
+Instale o pacote propTypes
+
+```bash
+yarn add prop-types
+```
+
 ## Melhorando a navegação entre pastas _BabelRootImport_
 
 1. Instale o plugin do babel
