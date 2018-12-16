@@ -5286,6 +5286,11 @@ react-is@^16.6.3:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.6.3.tgz#d2d7462fcfcbe6ec0da56ad69047e47e56e7eac0"
   integrity sha512-u7FDWtthB4rWibG/+mFbVd5FvdI20yde86qKGx4lVUTWmPlSWQ4QxbBIrrs+HnXGbxOUlUzTAP/VDmvCwaP2yA==
 
+react-native-hr-component@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/react-native-hr-component/-/react-native-hr-component-1.0.6.tgz#3fafaaaddbce38a894b32d4b5ef420479922ac16"
+  integrity sha1-P6+qrdvOOKiUsy1LXvQgR5kirBY=
+
 react-native@0.57.8:
   version "0.57.8"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.57.8.tgz#1a840fbe144cd3902cc14313a783ce28efc48cb9"

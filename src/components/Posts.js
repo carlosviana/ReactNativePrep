@@ -1,10 +1,13 @@
 import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 
+import Hr from 'react-native-hr-component';
+
 import PropTypes from 'prop-types';
 
 const white = '#FFF';
 const black = '#000';
+const gray = '#444';
 
 const styles = StyleSheet.create({
   container: {
@@ -22,8 +25,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
   },
   line: {
-    borderBottomColor: black,
-    borderBottomWidth: 1,
+    fontWeight: 'bold',
   },
 });
 
@@ -32,7 +34,7 @@ const Post = ({ data }) => (
     <View>
       <Text style={styles.title}>{data.title}</Text>
       <Text style={styles.author}>{data.author}</Text>
-      <Text style={styles.line} />
+      <Hr style={styles.line} text="" lineColor={gray} />
     </View>
     <Text>{data.content}</Text>
   </View>
