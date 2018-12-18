@@ -129,7 +129,7 @@ yarn eslint --init
 
 o prettier vai trabalhar junto com o eslint a seu favor. Ele vai automaticamente formatar seu código de acordo com as regras de padronização do eslint.
 
-1. Instale a extensção **prettier - code formatter** no VSCode
+1. Instale a extensão **prettier - code formatter** no VSCode
 2. Configure os settings do VSCode
     - habilite -> _prettier.eslintIntegration:_ true
     - habilite -> _editor.formatOnSave:_ true
@@ -240,7 +240,7 @@ if (__DEV__) {
 5. Informe o reactotron no arquivo _'./src/index.js'_
 
 ```javascript
-import "./config/Reactotronconfig";
+import "./config/ReactotronConfig";
 ```
 
 ### React-devtools
